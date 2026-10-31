@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Tahun Bersama 💕</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Music Toggle -->
+    <button class="music-toggle" id="musicToggle">
+        <i class="fas fa-music"></i>
+    </button>
+    
+    <!-- Audio -->
+    <audio id="bgMusic" loop>
+        <source src="media/audio/music.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung audio.
+    </audio>
+    
+    <!-- Landing Section -->
+    <section class="landing-section" id="landingSection">
+        <div class="container text-center">
+            <div class="landing-content">
+                <div class="heart-beat mb-4">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h1 class="landing-title">3 Tahun Bersama</h1>
+                <p class="landing-subtitle">Untuk Syindy Nur Fadilah Tersayang</p>
+                <button class="btn btn-romantic mt-4" id="startBtn">
+                    <span>Buka Pesan Cinta</span>
+                    <i class="fas fa-arrow-down ms-2"></i>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+    
+    <!-- Message Section -->
+    <section class="message-section" id="messageSection">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="message-card fade-in-up">
+                        <div class="message-header">
+                            <i class="fas fa-heart"></i>
+                            <h2>Happy 3rd Anniversary</h2>
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="message-body">
+                            <p class="message-text typewriter" id="messageText1">
+                                Sayangku...
+                            </p>
+                            <p class="message-text">
+                                3 tahun ini telah menjadi perjalanan terindah dalam hidupku.
+                                Bersamamu, setiap hari jadi lebih berarti, setiap tawa jadi lebih hangat,
+                                setiap momen jadi lebih spesial.
+                            </p>
+                            <p class="message-text">
+                                Terima kasih untuk semua cinta, kasih sayang, dan kebahagiaan
+                                yang kamu berikan padaku. Terima kasih telah menjadi rumah
+                                bagi hatiku dan menjadi alasan senyumku setiap hari.
+                            </p>
+                            <p class="message-text">
+                                Aku berharap kita bisa terus bersama, menciptakan lebih banyak
+                                kenangan indah, melewati segala suka dan duka bersama,
+                                dan menua bersama dengan penuh cinta.
+                            </p>
+                            <p class="message-text signature">
+                                <span class="signature-name">From Lucky Saputra</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="story-section" id="storySection">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Kisah Kita</h2>
+                <p class="section-subtitle">Sebuah perjalanan yang dimulai dari sebuah kampus, dan berakhir di hati yang sama</p>
+            </div>
+            <div class="story-timeline">
+                <div class="story-item fade-in-up">
+                    <div class="story-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="story-card">
+                        <span class="story-year">Awal Pertemuan</span>
+                        <h3 class="story-title">Takdir di Perpustakaan Teknik</h3>
+                        <p class="story-text">
+                            Semua berawal dari perpustakaan teknik kampus — tempat yang tenang,
+                            di antara rak buku dan deretan meja belajar. Kita tidak berada di kelas
+                            yang sama, tapi di sanalah takdir mempertemukan kita. Aku tidak pernah
+                            menyangka, di antara ribuan langkah orang yang lewat, langkahmu adalah
+                            yang akan mengubah seluruh hidupku.
+                        </p>
+                    </div>
+                </div>
+                <div class="story-item fade-in-up">
+                    <div class="story-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="story-card">
+                        <span class="story-year">Teman Jadi Nyaman</span>
+                        <h3 class="story-title">Tawa di Sela Tugas dan Skripsi</h3>
+                        <p class="story-text">
+                            Dari sekadar menyapa, kita mulai bercerita. Tentang tugas, tentang skripsi,
+                            tentang mimpi, tentang hal-hal kecil yang ternyata selalu ingin aku dengar
+                            dari suaramu. Kopi yang menemani, tawa yang tak pernah habis, dan obrolan
+                            yang selalu terasa kurang waktunya.
+                        </p>
+                    </div>
+                </div>
+                <div class="story-item fade-in-up">
+                    <div class="story-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="story-card">
+                        <span class="story-year">Benih Cinta</span>
+                        <h3 class="story-title">Rindu yang Tak Diundang</h3>
+                        <p class="story-text">
+                            Pelan-pelan, rasa itu tumbuh tanpa aku sadari. Aku mulai menunggu kabarmu,
+                            menghitung hari sampai bisa bertemu lagi di kampus, dan tersenyum sendiri
+                            saat namamu muncul di layar ponsel. Di situlah aku tahu, hatiku sudah
+                            memilih sebelum aku sempat berkata apa-apa.
+                        </p>
+                    </div>
+                </div>
+                <div class="story-item fade-in-up">
+                    <div class="story-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="story-card">
+                        <span class="story-year">Jatuh Cinta</span>
+                        <h3 class="story-title">Memilih untuk Bersama</h3>
+                        <p class="story-text">
+                            Sampai akhirnya keberanian itu datang. Aku memilihmu, dan kamu memilihku.
+                            Bukan karena semuanya sempurna, tapi karena bersamamu aku menemukan
+                            rumah. Sejak hari itu, setiap perjalanan pulang terasa lebih hangat,
+                            dan setiap esok terasa lebih berarti.
+                        </p>
+                    </div>
+                </div>
+                <div class="story-item fade-in-up">
+                    <div class="story-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <div class="story-card">
+                        <span class="story-year">Hari Ini & Selamanya</span>
+                        <h3 class="story-title">Tiga Tahun, dan Terus Bertumbuh</h3>
+                        <p class="story-text">
+                            Tiga tahun telah berlalu, membawa kita melewati suka dan duka bersama.
+                            Dari mahasiswa yang saling mengenal, kini menjadi dua hati yang saling
+                            menjaga. Kisah kita masih panjang, dan aku ingin menulis setiap
+                            halamannya bersamamu — sampai tua nanti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallerySection">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">Kenangan Kita</h2>
+                <p class="section-subtitle">Momen-momen indah yang takkan pernah terlupakan</p>
+            </div>
+            <div class="row g-4" id="photoGallery">
+                <!-- Photos will be added dynamically -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Love Animation Section -->
+    <section class="animation-section">
+        <div class="container text-center">
+            <div class="love-animation-container">
+                <div class="floating-hearts-anim">
+                    <div class="heart-float heart1">💕</div>
+                    <div class="heart-float heart2">❤️</div>
+                    <div class="heart-float heart3">💖</div>
+                    <div class="heart-float heart4">💗</div>
+                    <div class="heart-float heart5">💝</div>
+                </div>
+                <h2 class="animation-title">Forever & Always</h2>
+                <p class="animation-subtitle">Kamu adalah segalanya untukku</p>
+                <div class="kiss-animation">
+                    <i class="fas fa-heart"></i>
+                    <span>💋</span>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="footer-text">
+                Dibuat dengan <i class="fas fa-heart heartbeat"></i> untukmu, sayang
+            </p>
+            <p class="footer-date">Lucky Saputra & Syindy Nur Fadilah - 3 Tahun Bersama</p>
+        </div>
+    </footer>
+    
+    <!-- Photo Modal -->
+    <div class="modal fade" id="photoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="" alt="Kenangan Kita" class="modal-image" id="modalImage">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
